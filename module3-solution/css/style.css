@@ -1,0 +1,117 @@
+body{
+	font-size: 16px;
+	color: #000;
+	background-color: #fff;
+	font-family: 'Oxygen' , sans-serif;
+}
+h2 {
+	font-family: "Times New Roman" sans-serif;
+	font-weight: bold;
+	padding-bottom: 15px;
+	}
+h3{
+	font-size: 1.2em;
+	font-weight: bold;
+	padding-top: 15px;
+}
+.container-fluid{
+	padding-right: 15px;
+  padding-left: 15px;
+  margin-right: 45px;
+  margin-left: 45px;
+  padding-bottom: 15px;
+	background-color: lightgrey;
+}
+.container-fluid2{
+	padding-right: 25px;
+  padding-left: 25px;
+  margin-right: 45px;
+  margin-left: 45px;
+  padding-bottom: 15px;
+	background-color: lightgrey;
+}
+.container-fluid3{
+	padding-right: 15px;
+  padding-left: 15px;
+  margin-right: 45px;
+  margin-left: 45px;
+  padding-bottom: 15px;
+	background-color: lightgrey;
+}
+/** Header **/
+#header-nav{
+	background-color: gray;
+	border-radius: 0;
+	border: 1px solid #000;
+}
+
+.navbar-brand{
+	padding-top: 25px;
+	padding-bottom: 35px;
+}
+
+.navbar-brand h1 {
+	font-family: 'Lora' , serif;
+	color: #000;
+	font-size: 1.5em;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #222;
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: .75;
+}
+
+#nav-list{
+	margin-top: 10px;
+}
+#nav-list a{
+	color: #000;
+	text-align: center;
+}
+#nav-list a:hover{
+	background: #E7E7E7;
+}
+#nav-list a span{
+	font-size: 1.8em;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+	border: 2px solid #000;
+}
+.navbar-header button.navbar-toggle{
+	clear: both;
+	margin-top: -30px;
+}
+/* End Header*/
+
+@media (max-width: 767px){
+	#collapsable-nav{
+	background-color: #fff;
+	border: 1px solid #000;
+}
+
+	.navbar-brand h1{
+		padding-top: 10px;
+		padding-bottom: 5px;
+		font-size: 5vw; /* 1vw = 1% of viewport width */
+	}
+
+	#collapsable-nav a{
+		font-size: 1.2em;
+	}
+	#collapsable-nav a span{
+		font-size: 1em;
+		margin-top: 5px;
+	}
+
+/* For Super Extra small devices like iphone4 */
+@media (max-width: 470px){
+
+	/*Header Start*/
+	.navbar-brand h1{
+		padding-top: 5px;
+		font-size: 6vw; /* 1vw = 1% of viewport width */
+	}
+	/*Header End*/
+}
